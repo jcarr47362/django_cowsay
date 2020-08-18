@@ -1,0 +1,10 @@
+<a href="/">Home</a>
+<a href= 'history/'>History</a>
+
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" Value="submit">
+</form>
+<pre>{{ subprocess }}</pre>
